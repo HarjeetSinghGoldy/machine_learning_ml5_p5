@@ -3,7 +3,7 @@ let canvas;
 let doodleClassifier;
 let resultDiv;
 function setup() {
-	canvas = createCanvas(400,400)
+	canvas = createCanvas(800,800)
 	clearButton = createButton('clear');
 	clearButton.mousePressed(clearCanvas);
 	background(190);
@@ -37,7 +37,7 @@ function clearCanvas(){
 
 function draw() {
 	if(mouseIsPressed){
-		strokeWeight(16);
+		strokeWeight(32);
 		line(mouseX,mouseY,pmouseX,pmouseY)
 	}
 }

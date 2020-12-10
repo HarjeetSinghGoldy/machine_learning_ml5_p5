@@ -4,7 +4,7 @@ let doodleClassifier;
 let resultDiv;
 let video
 function setup() {
-	canvas = createCanvas(400,400)
+	canvas = createCanvas(800,800)
 	clearButton = createButton('clear');
 	clearButton.mousePressed(clearCanvas);
 	background(190);
